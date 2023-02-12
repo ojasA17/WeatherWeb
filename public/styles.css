@@ -1,0 +1,260 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .indexbackground {
+    
+    background-image: url("Images/final.jpg");
+    
+  
+    
+    height: 190%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+   
+    text-align: center;
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.place h1{
+    text-align: left;
+    color: white;
+    padding-bottom: 4%;
+    margin-right: 20%;
+}
+
+h2{
+    font-family: "ubuntu";
+    margin: 0;
+    padding-left: 2.5%;
+}
+h4{
+    margin: 0;
+}
+
+
+.upper{
+    padding-bottom: 0%;
+    
+
+}
+
+.logo{
+    padding-top: 3%;
+    padding-bottom: 0;
+    text-align: center;
+    size: 50rem;
+}
+
+.imagelogo{
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+    left:35%;
+}
+
+
+.searchbar{
+    position: relative;
+    left:33%;
+    width: 25%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-family:  Arial, sans-serif;
+    background-color:fff;
+    border: white;
+    padding-right: 0%;
+    padding-bottom: 5px;
+    padding-left: 1%;
+    height: 40px;
+}
+.searchbutton{
+    position:relative;
+    left: 33%;
+    font-size: x-large;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 5rem;
+    border: white;
+    padding-left: 0;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.searchbutton:hover{
+    background-color:black;
+    box-shadow: inset;
+    cursor: pointer;
+}
+.searchbar:hover{
+    background-color:azure;
+}
+.searchbar:click{
+    border-color: white;
+}
+::placeholder{
+    font-size: large;
+}
+
+@media (max-width: 1400px) {
+
+    .imagelogo{
+        margin:auto;
+        float: none;
+        position: inherit;
+    }
+    h1{
+        margin: auto;
+    }
+}
+@media (max-width: 950px) {
+
+    .imagelogo{
+        margin:auto;
+        float: none;
+        position: inherit;
+    }
+    .searchbardiv{
+        width: 100%;
+        margin: auto;
+    }
+
+    h1{
+        margin: auto;
+        font-size: 2rem;
+        
+    }
+}
+@media (max-width: 750px) {
+    .forcolor{
+        width:70%;
+    }
+}
+
+
+.today{
+    padding-top: 5%;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+
+}
+.forcolor{
+    width:30%;
+    text-align: left;
+    margin: auto;
+    background-image: url("Images/tempback.png");
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+.temp{
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+}
+.imgtemp{
+    width: 50%;
+    position: relative;
+    left: 0%;
+}
+.present{
+    width: 50%;
+    position: relative;
+    right: 0%;
+}
+.description{
+    text-align: center;
+    width: 40%;
+    padding-bottom: 2%;
+}
+.placeandtemp{
+    
+}
+.imganddes{
+    float: right;
+}
+.forecast{
+    
+}
+.day1{
+    height:6.5rem;
+    background-image: url("Images/5daysback.png");
+    width:40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    color: white;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.day2{
+    height:6.5rem;
+    background-image: url("Images/5daysback.png");
+    width:40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    color: white;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.day3{
+    height:6.5rem;
+    background-image: url("Images/5daysback.png");
+    width:40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    color: white;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.day4{
+    height:6.5rem;
+    background-image: url("Images/5daysback.png");
+    width:40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    color: white;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.day5{
+    height:6.5rem;
+    background-image: url("Images/5daysback.png");
+    width:40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+    color: white;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.avgtemp{
+    padding-left: 1.5rem;
+}
+.footer{
+    background-color: white;
+    height: 3rem;
+    background-color: aquamarine;
+}
+.para{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "ubuntu";
+    font-weight: bold;
+}

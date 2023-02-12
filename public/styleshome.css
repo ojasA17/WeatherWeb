@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .homebackground {
+    
+    background-image: url("Images/final.jpg");
+  
+    
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+   
+    text-align: center;
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 12px;
+
+}
+
+input{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.logo{
+    padding-top: 18%;
+    padding-bottom: 0;
+    text-align: center;
+    size: 50rem;
+}
+
+.imagelogo{
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+    left:35%;
+}
+
+.searchbar{
+    position: relative;
+    left:33%;
+    width: 25%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-family:  Arial, sans-serif;
+    background-color:fff;
+    border: white;
+    padding-right: 0%;
+    padding-bottom: 5px;
+    font-weight:lighter;
+    height: 40px;
+    padding-top: 3px;
+    padding-left: 1%;
+}
+.searchbutton{
+    position:relative;
+    left: 33%;
+    font-size: x-large;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 5rem;
+    border: white;
+    padding-left: 0;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.searchbutton:hover{
+    background-color:black;
+    box-shadow: inset;
+    cursor: pointer;
+}
+.searchbar:hover{
+    background-color:azure;
+}
+.searchbar:click{
+    border-color: white;
+}
+
+::placeholder{
+    font-size: large;
+}
+
+@media (max-width: 1400px) {
+
+    .imagelogo{
+        margin:auto;
+        float: none;
+        position: inherit;
+    }
+    h1{
+        margin: auto;
+    }
+}
+@media (max-width: 950px) {
+
+    .imagelogo{
+        margin:auto;
+        float: none;
+        position: inherit;
+    }
+    .searchbardiv{
+        width: 100%;
+        margin: auto;
+    }
+
+    h1{
+        margin: auto;
+        font-size: 2rem;
+        
+    }
+}
+

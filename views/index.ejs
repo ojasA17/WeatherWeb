@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="indexbackground">
+        <div class="upper">
+            <div class="logo">
+                <img class="imagelogo"  src="Images/weather-news.png">
+                <h1>WeatherWeb</h1>
+            </div>
+        </div>
+        <div class="searchbardiv">
+            <form action="/" method="post">
+                <input class="searchbar" type="text" name="search" placeholder="Search Location">
+                <button class="searchbutton" type="submit">🔍</button>
+            </form>
+            
+    
+        </div>
+
+        <div>
+            <div class="today">
+                <div class="forcolor">
+                    <div class="place">
+                        <h1 class="placeh1"><%=place.toUpperCase()%></h1>
+                    </div>
+                    <div class="temp">
+                        <h4><%=temp%> °C</h4>
+                    </div>
+                    <div>
+                        <h4>Feels Like <%=feelTemp%> °C </h4>
+                    </div>
+                    <div class="imgtemp">
+                        <img src="<%=url%>" alt="">
+                    </div>
+                    <div class="description">
+                        <h4><%=description%></h4>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="forecast">
+                <div class="day1">
+                    <div style="float: left">
+                        <h2>MONDAY</h2>
+                        <% const temp1=(temp+1.22).toFixed(2) %>
+                        <h4 class="avgtemp">Avg. Temp <%=temp1 %> °C</h4>
+                    </div>
+                    
+                    <img style="float: right;padding-right: 2.5rem;" src="Images/sun0.png" alt="">
+                </div>
+                <div class="day2">
+                    <div style="float: left">
+                        <h2>TUESDAY</h2>
+                        <% const temp2=(temp+2.45).toFixed(2) %>
+                        <h4 class="avgtemp">Avg. Temp <%=temp2 %> °C</h4>
+                    </div>
+                    
+                    <img style="float: right;padding-right: 2.5rem;" src="Images/sun1.png" alt="">
+                </div>
+                    
+                </div>
+
+                <div class="day3">
+                    <div style="float: left">
+                        <h2>WEDNESDAY</h2>
+                        <% const temp3=(temp+2.28).toFixed(2) %>
+                        <h4 class="avgtemp">Avg. Temp <%=temp3 %> °C</h4>
+                    </div>
+                    
+                    <img style="float: right;padding-right: 2.5rem;" src="Images/sun1.png" alt="">
+
+                    
+                </div>
+
+                <div class="day4">
+                    <div style="float: left">
+                        <h2>THURSDAY</h2>
+                        <% const temp4=(temp+3.2).toFixed(2) %>
+                        <h4 class="avgtemp">Avg. Temp <%=temp4 %> °C</h4>
+                    </div>
+                    
+                    <img style="float: right;padding-right: 2.5rem;" src="Images/sun0.png" alt="">
+                    
+                </div>
+
+                <div class="day5">
+                    <div style="float: left">
+                        <h2>FRIDAY</h2>
+                        <% const temp5=(temp+3).toFixed(2) %>
+                        <h4 class="avgtemp">Avg. Temp <%=temp5 %> °C</h4>
+                    </div>
+                    
+                    <img style="float: right;padding-right: 2.5rem;" src="Images/sun1.png" alt="">
+                    
+                </div>
+            </div>
+
+            <div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- <footer class="footer">
+        <p class="para">Made By Ojas Aglawe</p>
+
+    </footer> -->
+    
+</body>
+</html>
